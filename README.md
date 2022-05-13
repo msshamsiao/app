@@ -62,3 +62,21 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+# commands / steps
+1. composer update
+
+2. copy the .env.example then change it to .env
+
+3. create database = todo_api
+
+4. run php artisan key:generate
+
+5. php artisan migrate
+
+6. open your postman
+
+   - get = http://127.0.0.1:8000/api/todo/get/{id}
+   - gets = http://127.0.0.1:8000/api/todo/
+   - store = http://127.0.0.1:8000/api/todo/store
+   - put = http://127.0.0.1:8000/api/todo/update/1
